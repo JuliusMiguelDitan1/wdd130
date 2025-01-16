@@ -1,0 +1,35 @@
+nav {
+
+    background-color: darkblue;
+    
+    padding: 10px;
+    }
+    
+    
+    nava {
+    
+    color: white;
+    
+    display: block;
+    
+    padding: 20px;
+    }
+    h1 {
+        color: darkblue
+    }
+    
+    img{
+    
+    width: 150px;
+    
+    height: auto;
+    
+    padding: 2px;
+    
+    border: 1px solid black;
+    
+    box-shadow: 0 0 30px gray;
+    }
+    p {
+        padding: 10px;
+    }
