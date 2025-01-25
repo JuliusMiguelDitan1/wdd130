@@ -43,8 +43,9 @@ a {
 }
 .hero article img{
     float: right;
-    width: 100px;
-	height: 100px;
+    width: 100%;
+	height: 100%;
+    object-fit: cover;
 }
 .hero article p {
     color:var(--white);
