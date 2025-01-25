@@ -4,10 +4,8 @@
     --black: #000000ff;
     --dark-spring-green: #04724dff;
     --moonstone: #47a8bdff;
-    font-family: "Teko", serif;
-
+    --font-family: "Teko", serif;
 }
-
 a {
     text-decoration: none;
 }
@@ -18,12 +16,36 @@ a {
     height: auto;
 }
 
-h1 {
-    position: absolute;
+.hero {
+    position: relative;
 }
-article {
+.hero h1 {
     position: absolute;
+    text-align: center;
+    margin-bottom: 200px;
+    top: 50px;
+    bottom: 60%;
+    left: 0px;
+    right:0px;
+	background: var(--yinmn-blue);
+    opacity: 0.9;
+    padding-top: 10px;
+    color:var(--white);
 }
-article img {
+.hero article {
+    position: absolute;
+	top: 30%;
+	right: 20%;
+    bottom: 58%;
+    left: 20%;
+    background: var(--black);
+    opacity: 0.9;
+}
+.hero article img{
     float: right;
+    width: 100px;
+	height: 100px;
+}
+.hero article p {
+    color:var(--white);
 }
