@@ -1,5 +1,10 @@
-article:root {
-    color: 4E598C;
+:root {
+    --yinmn-blue: #4e598cff;
+    --white: #ffffffff;
+    --black: #000000ff;
+    --dark-spring-green: #04724dff;
+    --moonstone: #47a8bdff;
+    font-family: "Teko", serif;
 
 }
 
