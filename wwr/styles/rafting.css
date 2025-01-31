@@ -32,12 +32,12 @@ nav li {
 nav a {
 	display: block;
     padding: 5px;
-	color: var(--moonstone);
+	color: var(--yinmn-blue);
 	font-size: 2.2rem;
 }
 
 nav a:hover {
-	color: var(--yinmn-blue);;
+	color: var(--black);;
 	font-weight: 700;
 	text-decoration: underline;
 }
