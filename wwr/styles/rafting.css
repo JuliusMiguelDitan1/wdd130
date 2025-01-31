@@ -86,6 +86,7 @@ body main{
     color:var(--white);
 }
 .his {
+    color:var(--white);
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -111,6 +112,7 @@ body main{
 }
 .Adven {
     position: relative;
+    color:var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
@@ -139,12 +141,10 @@ body main{
 
 
 footer {
-    display: relative;
     background: var(--yinmn-blue);
     padding: 50px;
 }
 footer p {
-    display: relative;
     text-align: center;
     color:var(--white);
 }
