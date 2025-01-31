@@ -149,7 +149,7 @@ footer {
 }
 footer p {
     text-align: center;
-    color:var(--white);
+    color:var(--white );
 }
 footer .sociallinks a{
     float: right;
