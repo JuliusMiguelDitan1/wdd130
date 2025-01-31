@@ -90,6 +90,9 @@ body main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr;
+    padding: 100px;
+    background: var(--yinmn-blue);
+    opacity: 0.9;
 }
 .his img {
     position: absolute;
@@ -111,7 +114,9 @@ body main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
-    padding: 100px;
+    background: var(--yinmn-blue);
+    opacity: 0.9;
+
 }
 .Adven h2{
     position: relative;
@@ -119,11 +124,15 @@ body main{
     grid-row: 1;
     text-align: center;
 }
-.Adven img {
+.Adven figure {
     position: relative;
-    width: 250px;
-	height: auto;
     grid-row: 2;
+}
+
+.Adven figure img {
+    position: relative;
+    width: 200px;
+	height: auto;
 }
 
 
