@@ -90,7 +90,6 @@ body main{
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr;
     padding: 100px;
     background: var(--yinmn-blue);
     opacity: 0.9;
