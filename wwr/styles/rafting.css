@@ -129,6 +129,10 @@ body main{
     position: relative;
     grid-row: 2;
 }
+.Adven figcaption {
+    color: var(--black);
+
+}
 
 .Adven figure img {
     position: relative;
