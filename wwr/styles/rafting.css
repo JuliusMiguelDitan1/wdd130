@@ -207,17 +207,18 @@ input[type="checkbox"] {
 }
 
 button {
+    float: right;
     margin: 1rem;
-    background-color: navy;
+    background-color: var(--yinmn-blue);
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: 7rem;
+    padding: 1rem 1rem 1rem 1rem;
     font-size: 1.2rem;
 }
 
     button:hover {
-    background-color: darkgreen;
+    background-color: var(--black);
  }
 
 
