@@ -144,7 +144,7 @@ body main{
 
 .Adven h2{
     position: relative;
-    grid-column: 2/3;
+    grid-column: 3;
     grid-row: 1;
     text-align: center;
 }
@@ -180,6 +180,21 @@ body main{
     grid-column: 2/3;
     grid-row: 1;
     text-align: center;
+}
+
+.Ad h2 {
+    grid-column: 2/3;
+    text-align: center;
+
+}
+
+.Ad p {
+    grid-column: 2/3;
+    grid-row: 2;
+    text-align: center;
+}
+.Ad a {
+    color: #fff;
 }
 
 .Ad .f {
